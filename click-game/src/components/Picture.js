@@ -4,8 +4,8 @@ const Picture = (props) => {
 // console.log(props)
     return (
 
-        <div className="card" style={{height: "100px", width: "100px", padding: "20px", margin: "20px"}}>
-            <img className="card-img-top" src={props.image} id= {props.id} alt="game-img" />
+        <div className="card" style={{ maxWidth: "200px", maxHeight: "200px", margin: "30px", borderRadius:20, padding:10}}>
+            <img className="card-img-top" src={props.image} id= {props.id} alt="game-img" style={{ width:"150px"}} />
         </div>
 
     )

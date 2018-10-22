@@ -1,4 +1,32 @@
-.App {
+
+body{
+   background-image: url("../assets/images/clouds.jpg");
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.image-center {
+  margin: auto;
+}
+.jumbotron{
+  border-radius: 200px;
+  background-color: rgb(255, 254, 254, 0.3)
+}
+/* #navbar-cntrl {
+  margin: auto;
+
+} */
+.navigation-center {
+  text-align: center;
+  margin: auto;
+  display: flex;
+
+
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +57,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
