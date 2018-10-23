@@ -4,6 +4,20 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.card-style {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 30px;
+  border-radius:20px; 
+  padding:10px;
+}
+
+.card-img {
+  width: 150px;
+  cursor: pointer;
+}
+
+
 .image-center {
   margin: auto;
 }
@@ -18,4 +32,26 @@ body {
   text-align: center;
   margin: auto;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: url("https://i.pinimg.com/originals/06/ac/14/06ac1440d0c8aec99691ff58af62dd33.png") no-repeat;
+
+
+  }
+  .jumbotron{
+    text-align: center;
+  }
+
+  .card-style {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 20px;
+    border-radius:10px; 
+    padding:2px;
+  }
+  .card-img {
+    width: 50px;
+  }
 }
