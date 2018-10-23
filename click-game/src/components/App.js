@@ -44,7 +44,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar  />
+        {/* <Navbar  /> */}
         <Jumbotron topScore={this.state.topScore} score={this.state.score}/>
         <Game shuffle={this.shuffle} data={this.state} />
 

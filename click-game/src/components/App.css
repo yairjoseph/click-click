@@ -1,60 +1,21 @@
-
-body{
-   background-image: url("../assets/images/clouds.jpg");
+body {
+  background-image: url("../assets/images/clouds.jpg");
   background-size: cover;
   font-family: 'Oswald', sans-serif;
-
 }
 
 .image-center {
   margin: auto;
 }
+
 .jumbotron{
+  padding: 5px;
   border-radius: 200px;
   background-color: rgb(255, 254, 254, 0.3)
 }
-/* #navbar-cntrl {
-  margin: auto;
 
-} */
 .navigation-center {
   text-align: center;
   margin: auto;
   display: flex;
-
-
 }
-
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
